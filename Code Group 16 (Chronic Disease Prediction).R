@@ -6,7 +6,7 @@ library(pROC)
 library(randomForest)
 library(e1071)
 library(dplyr)
-data <- read.csv("C:/Users/mintmachine/OneDrive/health.csv")
+data <- read.csv("C:/Users/mintmachine/OneDrive/Data_Mining_Group_Project(Group_16).csv")
 
 data$ChronicDisease <- as.factor(data$ChronicDisease)
 data$Sex <- as.factor(data$Sex)
